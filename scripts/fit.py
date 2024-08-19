@@ -10,7 +10,7 @@ import yaml
 import os
 import joblib
 
-# обучение модели
+# Обучение модели
 def fit_model():
 	# Прочитайте файл с гиперпараметрами params.yaml
     with open('params.yaml', 'r') as fd:

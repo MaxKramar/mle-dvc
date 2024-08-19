@@ -7,7 +7,7 @@ import json
 import yaml
 import os
 
-# оценка качества модели
+# Оценка качества модели
 def evaluate_model():
 	# прочитайте файл с гиперпараметрами params.yaml
     with open('params.yaml', 'r') as fd:
